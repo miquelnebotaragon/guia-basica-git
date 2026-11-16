@@ -7,7 +7,8 @@
 ## ⛏️ 1. Crear repositorio local y subirlo a GitHub
 ### 📦 Flujo de trabajo
 
-0. Antes de empezar
+0. Antes de empezar  
+
 Git no crea por ti el repositorio remoto en GitHub. Deberás entonces abrir tu cuenta y crear manualmente tu repositorio sin README, License, .gitignore... Necesitamos un repositorio vacío.
 
 1. Configuración inicial
