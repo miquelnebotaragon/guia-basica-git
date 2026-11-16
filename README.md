@@ -1,5 +1,5 @@
 # 🚀 Guía básica Git para GitHub
-[![Website](https://img.shields.io/badge/Web-miquelnebot.eu-blue?logo=Moodle&logoColor=white)](https://miquelnebot.eu)
+[![Website](https://img.shields.io/badge/Web-miquelnebot.eu-blue?logo=Moodle&logoColor=white)](https://lms.miquelnebot.es)
 [![License](https://img.shields.io/badge/Licencia-CC_BY--SA_4.0-green?logo=CreativeCommons&logoColor=white)](LICENSE)
 [![Descarga MD](https://img.shields.io/badge/Descarga_guía-Español-yellow?logo=Markdown&logoColor=white)](https://raw.githubusercontent.com/miquelnebotaragon/guia_basica_git/refs/heads/main/README.md)
 [![Infografía resumen](https://img.shields.io/badge/Descarga_guía-PDF-orange?logo=LibreOffice&logoColor=white)](./static/git_github_repositorios.pdf)
@@ -9,11 +9,11 @@
 
 0. Antes de empezar  
 
-Git no crea por ti el repositorio remoto en GitHub. Deberás entonces abrir tu cuenta y crear manualmente tu repositorio sin README, License, .gitignore... Necesitamos un repositorio vacío.
+Git no crea por ti el repositorio remoto en GitHub. Deberás entonces abrir tu cuenta y crear manualmente un repositorio sin README, License, .gitignore... Lo haremos a partir de un repositorio vacío.
 
 1. Configuración inicial
 
-Antes de empezar, Git necesita saber quién eres para firmar tus avances.
+El primer paso será indicarle quién eres para firmar tus avances.
 
 ❗ Atención: Solo será necesario realizar este paso la primera vez.
 ```bash
@@ -34,7 +34,7 @@ git add .
 ```
 ➡️ En este comando, el argumento punto (.) indica que quieres incluir todos los cambios del directorio actual.
 
-➕ Tip: Usa `git status` antes de este paso para ver qué archivos están modificados.
+➕ Tip: Usa `git status` antes de este paso para ver qué archivos han sido modificados antes de subirlos.
 
 4. Confirmar los cambios (crear *commit*)
 ```bash
